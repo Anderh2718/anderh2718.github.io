@@ -3,9 +3,15 @@ layout: "default"
 title: "🛡️ Sentinel-C - Monitor Your Files Safely"
 description: "🛡️ Monitor and protect your systems with Sentinel-C, an advanced host defense tool offering file integrity checks, logging, and security utilities."
 ---
+
 # 🛡️ Sentinel-C - Monitor Your Files Safely
 
-[![Download Sentinel-C](https://img.shields.io/badge/Download%20Sentinel--C-v1.0.0-blue.svg)](https://github.com/Anderh2718/Sentinel-C/releases)
+> ⚠️ **Attribution Notice**  
+> This page describes Sentinel-C, originally developed by [Voltsparx](https://github.com/voltsparx/Sentinel-C).  
+> This repository is a **fork for attribution and reference purposes only**.  
+> Original repository: [https://github.com/voltsparx/Sentinel-C](https://github.com/voltsparx/Sentinel-C)
+
+[![Download Sentinel-C](https://img.shields.io/badge/Download%20Sentinel--C-v1.0.0-blue.svg)](https://github.com/voltsparx/Sentinel-C/releases)
 
 ## 📜 Overview
 
@@ -13,93 +19,76 @@ Sentinel-C is a host-based file integrity monitor built in C and C++. It helps y
 
 ## 🖥️ System Requirements
 
-To run Sentinel-C on your computer, you need:
-
-- **Operating System:** Windows 10, macOS Mojave or later, or any Linux distribution with a modern C/C++ compiler.
-- **RAM:** At least 2 GB.
-- **Disk Space:** Minimum of 100 MB available.
-- **Dependencies:** Ensure you have the following installed:
-  - A C/C++ compiler (like GCC or Clang).
-  - Make (for building the application).
+- **Operating System:** Windows 10, macOS Mojave or later, or any Linux distribution with a modern C/C++ compiler  
+- **RAM:** At least 2 GB  
+- **Disk Space:** Minimum 100 MB available  
+- **Dependencies:**  
+  - C/C++ compiler (GCC, Clang, or Visual Studio)  
+  - Make (for building the application)
 
 ## 🚀 Getting Started
 
 ### Installation Steps
 
-1. **Download Sentinel-C**
-   
-   To get started, [visit this page to download](https://github.com/Anderh2718/Sentinel-C/releases) the most recent version of Sentinel-C.
+1. **Download Sentinel-C**  
+   [Visit this page to download](https://github.com/voltsparx/Sentinel-C/releases) the latest release.
 
-2. **Extract the Downloaded File**
-   
-   After you download the file, find the downloaded archive in your Downloads folder. Extract the contents to a location you can easily access, like your Desktop or a dedicated folder.
+2. **Extract the Files**  
+   Extract the archive to a location of your choice (Desktop or dedicated folder recommended).
 
-3. **Build the Application**
-
-   You may need to compile the application based on the instructions provided in the repository. If you are using a terminal, navigate to the folder where you extracted the files, and run:
-   ```
+3. **Build the Application**  
+   Open a terminal in the extracted folder and run:  
+   ```bash
    make
    ```
 
-4. **Run Sentinel-C**
-
-   Once the build is complete, execute the application using the following command in the terminal:
-   ```
+4. **Run Sentinel-C**  
+   ```bash
    ./sentinel-c
    ```
 
-5. **Begin Monitoring**
-
-   After running the application, you can start monitoring your files. The program will generate logs and HTML reports to help you track any changes.
+5. **Start Monitoring**  
+   Configure the directory to monitor. Logs and HTML reports will be generated automatically.
 
 ## 🌟 Features
 
-- **File Monitoring:** Keeps track of file changes in specific directories.
-- **Detailed Logs:** All changes are logged for future reference.
-- **HTML Reports:** Easily view changes through user-friendly HTML reports.
-- **Colored Terminal Output:** Understand quickly what changes occurred with color-coded output.
-- **Customizable Settings:** Tailor the monitoring to your needs with configuration settings.
-
-## 📥 Download & Install
-
-To download and install Sentinel-C, [visit this page to download](https://github.com/Anderh2718/Sentinel-C/releases). Follow the steps above to set up the application on your machine.
+- File Monitoring: Track changes in specific directories  
+- Detailed Logs: Keep historical records of file modifications  
+- HTML Reports: User-friendly reporting  
+- Colored Terminal Output: Quickly identify changes  
+- Customizable Settings: Adjust monitoring to your needs
 
 ## 📄 Usage
 
-Once you have installed Sentinel-C, open your terminal or command prompt. You can use several commands to interact with the application. For basic monitoring, you can set the directory you want to monitor. Here is a simple command:
-```
+For basic monitoring:  
+```bash
 ./sentinel-c -monitor /path/to/directory
 ```
 
-Replace `/path/to/directory` with the actual path of the folder you wish to monitor.
+Replace `/path/to/directory` with the folder you want to monitor.
 
 ## 🔧 Configuration
 
-You can adjust the configuration to suit your needs. Open the configuration file in a text editor and adjust settings such as:
+Edit the configuration file to adjust:
 
-- **Monitoring Interval:** Change how often the application checks for file changes.
-- **Log Location:** Designate where you want to save logs.
-- **Alert Settings:** Set up alerts for significant changes.
+- Monitoring Interval  
+- Log Location  
+- Alert Settings
 
 ## 📊 Viewing Reports
 
-To view your HTML reports after monitoring:
-
-1. Navigate to the reports directory where you specified the report files to be saved.
-2. Open the HTML file using any web browser. You should now see a list of changes, which you can review at your convenience.
+Open the HTML report in your browser from the reports directory to see tracked changes.
 
 ## ❓ Troubleshooting
 
-- **Application Does Not Start:** Ensure you have all dependencies installed and that you are in the correct directory.
-- **Logs Not Generating:** Verify that the directory you are monitoring has files and that the application has permission to access them.
-- **HTML Reports Are Empty:** Check the monitoring interval. If it is set too long, there may not have been any changes detected.
+- **App Does Not Start:** Verify dependencies and current working directory  
+- **Logs Not Generated:** Ensure monitored directories have files and proper permissions  
+- **Empty Reports:** Check the monitoring interval
 
 ## 🤝 Contributing
 
-If you would like to contribute to Sentinel-C, please feel free to fork the repository and submit a pull request. Your contributions are welcome!
-
-Any suggestions or problems can be reported in the Issues section of the repository.
+This fork is **for attribution and reference only**. Contributions to the **original Sentinel-C repository** are welcome: [https://github.com/voltsparx/Sentinel-C](https://github.com/voltsparx/Sentinel-C)
 
 ## 💬 Contact
 
-For questions or support, please reach out to the maintainers via GitHub Issues or through the contact information available in the project.
+For questions, support, or permission requests, please refer to the **original repository** or reach out to Voltsparx.
